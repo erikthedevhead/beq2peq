@@ -39,13 +39,13 @@ export default function About() {
               tight shale development and frequently speaks at conferences on
               petroleum engineering. His contributions to the field have made a
               significant impact, helping operators achieve cost-effective,
-              high-efficiency production in some of the world's most challenging
-              reservoirs.
+              high-efficiency production in some of the world&apos;s most
+              challenging reservoirs.
             </p>
             <p>
-              Whether you're facing challenges in offshore deepwater projects or
-              unconventional tight shale plays, our consultant is here to
-              provide tailored, expert advice to help you navigate the
+              Whether you&apos;re facing challenges in offshore deepwater
+              projects or unconventional tight shale plays, our consultant is
+              here to provide tailored, expert advice to help you navigate the
               complexities of the oil and gas industry.
             </p>
           </div>
