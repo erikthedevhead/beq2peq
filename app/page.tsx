@@ -52,7 +52,7 @@ export default function Home() {
           </SwiperSlide>
           <SwiperSlide>
             <p>
-              "They provided solutions that others couldn't. We saw great
+              "They provided solutions that others couldn&apos;t. We saw great
               results."
             </p>
             <h4>- Client 3</h4>
