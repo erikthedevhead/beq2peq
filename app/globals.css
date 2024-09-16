@@ -29,3 +29,112 @@ body {
 img {
   width: auto; /* Maintain aspect ratio */
 }
+
+.banner-container {
+  position: relative;
+  height: 500px; /* Adjust based on desired height */
+  background-image: url("/banner-rig.jpg"); /* Replace with your stock image path */
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 255, 0.5),
+    rgba(0, 0, 255, 0.3)
+  ); /* Blue gradient */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.welcome-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.welcome-section p {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.reviews-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.reviews-section p {
+  font-size: 1.25rem;
+  color: #555;
+  text-align: center;
+}
+
+.reviews-section h4 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.about-container {
+  padding: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Ensures responsive stacking on smaller screens */
+}
+
+.bio-text {
+  flex: 1 1 60%; /* Text takes up 60% of space on larger screens */
+  margin-right: 20px;
+}
+
+.bio-text h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.bio-text p {
+  margin-bottom: 16px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.headshot {
+  flex: 0 1 35%; /* Image takes up 35% of space on larger screens */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.headshot img {
+  border-radius: 50%; /* Make image round */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column; /* Stacks content on smaller screens */
+  }
+  .headshot {
+    margin-top: 20px; /* Adds margin between image and text */
+  }
+}
