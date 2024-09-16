@@ -38,22 +38,22 @@ export default function Home() {
         >
           <SwiperSlide>
             <p>
-              "Amazing service and expertise. Our production efficiency improved
-              dramatically!"
+              &quot;Amazing service and expertise. Our production efficiency
+              improved dramatically!&quot;
             </p>
             <h4>- Client 1</h4>
           </SwiperSlide>
           <SwiperSlide>
             <p>
-              "Professional and reliable. Highly recommend their consulting
-              team."
+              &quot;Professional and reliable. Highly recommend their consulting
+              team.&quot;
             </p>
             <h4>- Client 2</h4>
           </SwiperSlide>
           <SwiperSlide>
             <p>
-              "They provided solutions that others couldn&apos;t. We saw great
-              results."
+              &quot;They provided solutions that others couldn&apos;t. We saw
+              great results.&quot;
             </p>
             <h4>- Client 3</h4>
           </SwiperSlide>
